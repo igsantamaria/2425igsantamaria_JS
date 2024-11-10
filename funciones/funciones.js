@@ -27,3 +27,18 @@ function pagina3PSFuncion() {
 function pagina4PSFuncion() {
     console.log("Función de la página 4");
     document.body.style.backgroundColor = "lightgoldenrodyellow";
+
+
+    // Verifica qué página está cargada y ejecuta la función correspondiente
+document.addEventListener("DOMContentLoaded", function() {
+    if (window.location.pathname.includes("pagina1PS.html")) {
+        pagina1PSFuncion();
+    } else if (window.location.pathname.includes("pagina2PS.html")) {
+        pagina2PSFuncion();
+    } else if (window.location.pathname.includes("pagina3PS.html")) {
+        pagina3PSFuncion();
+    } else if (window.location.pathname.includes("pagina4PS.html")) {
+        pagina4PSFuncion();
+    } else if (window.location.pathname.includes("index.html")) {
+        indexFuncion();
+});
