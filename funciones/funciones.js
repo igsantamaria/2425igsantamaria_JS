@@ -13,7 +13,6 @@ function pagina1JSFuncion() {
 // Función para la página 2 cambio color letra
 function pagina2JSFuncion() {
     console.log("https://igsantamaria.github.io/2425igsantamaria_JS/pagina2JS.html");
-    document.body.style.backgroundColor = "lightblue";
    document.body.style.color = 'red'; 
 }
 
