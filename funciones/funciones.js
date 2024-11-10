@@ -7,7 +7,7 @@ function indexFuncion() {
 // Función para la página 1
 function pagina1JSFuncion() {
     console.log("https://igsantamaria.github.io/2425igsantamaria_JS/pagina1JS.html");
-    document.body.style.backgroundColor = "lightgreen";
+    document.body.style.backgroundColor = "lightpink";
 }
 
 // Función para la página 2
