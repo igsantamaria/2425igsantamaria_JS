@@ -1,0 +1,18 @@
+body {
+  background-color: lightgreen;
+  text-align: center;
+}
+
+h1 {
+  color: green;
+}
+
+h2 {
+  color: green;
+}
+
+p {
+  font-family: verdana;
+  front-size: 20px; 
+  align: center;
+}
