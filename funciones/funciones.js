@@ -1,32 +1,56 @@
-// Función para la index
+// Función para la index mensaje 
 function indexFuncion() {
     console.log("https://igsantamaria.github.io/2425igsantamaria_JS/index.html");
     alert("¡Hola, bienvenido a Hongi Etorri!");
 }
 
-// Función para la página 1
+// Función para la página 1 cambio color fondo
 function pagina1JSFuncion() {
     console.log("https://igsantamaria.github.io/2425igsantamaria_JS/pagina1JS.html");
     document.body.style.backgroundColor = "lightpink";
 }
 
-// Función para la página 2
+// Función para la página 2 cambio color fondo
 function pagina2JSFuncion() {
     console.log("https://igsantamaria.github.io/2425igsantamaria_JS/pagina2JS.html");
     document.body.style.backgroundColor = "lightblue";
+ }
+
+// Función para la página 2 cambio color letra
+function pagina2JSFuncion() {
+    console.log("https://igsantamaria.github.io/2425igsantamaria_JS/pagina2JS.html");
+    document.getElementById("miTexto").style.color = "blue";
 }
 
-// Función para la página 3
+// Función para la página 3 cambio color fondo
 function pagina3JSFuncion() {
     console.log("https://igsantamaria.github.io/2425igsantamaria_JS/pagina3JS.html");
     document.body.style.backgroundColor = "lightcoral";
 }
 
-// Función para la página 4
+
+// Función para la página 3 cambio tamaño letra
+function pagina3JSFuncion() {
+    console.log("https://igsantamaria.github.io/2425igsantamaria_JS/pagina3JS.html");
+    document.body.style.fontFamily = "sans-serilf";
+}
+
+
+// Función para la página 4 cambiar color de fondo
 function pagina4JSFuncion() {
     console.log("https://igsantamaria.github.io/2425igsantamaria_JS/pagina4JS.html");
     document.body.style.backgroundColor = "lightgoldenrodyellow";
+
 }
+
+// Función para la página 4 cambiar tamaño letra
+function pagina4JSFuncion() {
+    console.log("https://igsantamaria.github.io/2425igsantamaria_JS/pagina4JS.html");
+    document.body.style.fontSize = '38px';
+    
+}
+
+
 
 // Verifica qué página está cargada y ejecuta la función correspondiente
 document.addEventListener("DOMContentLoaded", function() {
