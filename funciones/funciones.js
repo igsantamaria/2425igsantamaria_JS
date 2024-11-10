@@ -19,7 +19,7 @@ function pagina2JSFuncion() {
 // Función para la página 3 cambio color fondo y tipo de letra
 function pagina3JSFuncion() {
     console.log("https://igsantamaria.github.io/2425igsantamaria_JS/pagina3JS.html");
-    document.body.style.fontFamily = "didot";
+    document.body.style.fontFamily = "Courier";
 }
 
 
