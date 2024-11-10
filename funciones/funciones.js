@@ -31,14 +31,14 @@ function pagina4PSFuncion() {
 
     // Verifica qué página está cargada y ejecuta la función correspondiente
 document.addEventListener("DOMContentLoaded", function() {
-    if (window.location.pathname.includes("pagina1PS.html")) {
+    if (window.location.pathname.includes("./pagina1PS.html")) {
         pagina1PSFuncion();
-    } else if (window.location.pathname.includes("pagina2PS.html")) {
+    } else if (window.location.pathname.includes("./pagina2PS.html")) {
         pagina2PSFuncion();
-    } else if (window.location.pathname.includes("pagina3PS.html")) {
+    } else if (window.location.pathname.includes("./pagina3PS.html")) {
         pagina3PSFuncion();
-    } else if (window.location.pathname.includes("pagina4PS.html")) {
+    } else if (window.location.pathname.includes("./pagina4PS.html")) {
         pagina4PSFuncion();
-    } else if (window.location.pathname.includes("index.html")) {
+    } else if (window.location.pathname.includes("./index.html")) {
         indexFuncion();
 });
