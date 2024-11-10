@@ -5,26 +5,26 @@ function indexFuncion() {
 }
 
 // Función para la página 1
-function pagina1PSFuncion() {
-    console.log("https://igsantamaria.github.io/2425igsantamaria_JS/pagina1PS.html");
+function pagina1JSFuncion() {
+    console.log("https://igsantamaria.github.io/2425igsantamaria_JS/pagina1JS.html");
     document.body.style.backgroundColor = "lightgreen";
 }
 
 // Función para la página 2
-function pagina2PSFuncion() {
-    console.log("https://igsantamaria.github.io/2425igsantamaria_JS/pagina2PS.html");
+function pagina2JSFuncion() {
+    console.log("https://igsantamaria.github.io/2425igsantamaria_JS/pagina2JS.html");
     document.body.style.backgroundColor = "lightblue";
 }
 
 // Función para la página 3
-function pagina3PSFuncion() {
-    console.log("https://igsantamaria.github.io/2425igsantamaria_JS/pagina3PS.html");
+function pagina3JSFuncion() {
+    console.log("https://igsantamaria.github.io/2425igsantamaria_JS/pagina3JS.html");
     document.body.style.backgroundColor = "lightcoral";
 }
 
 // Función para la página 4
-function pagina4PSFuncion() {
-    console.log("https://igsantamaria.github.io/2425igsantamaria_JS/pagina4PS.html");
+function pagina4JSFuncion() {
+    console.log("https://igsantamaria.github.io/2425igsantamaria_JS/pagina4JS.html");
     document.body.style.backgroundColor = "lightgoldenrodyellow";
 }
 
@@ -35,13 +35,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
     if (pathname.includes("index.html")) {
         indexFuncion();
-    } else if (pathname.includes("pagina1PS.html")) {
+    } else if (pathname.includes("pagina1JS.html")) {
         pagina1PSFuncion();
-    } else if (pathname.includes("pagina2PS.html")) {
+    } else if (pathname.includes("pagina2JS.html")) {
         pagina2PSFuncion();
-    } else if (pathname.includes("pagina3PS.html")) {
+    } else if (pathname.includes("pagina3JS.html")) {
         pagina3PSFuncion();
-    } else if (pathname.includes("pagina4PS.html")) {
+    } else if (pathname.includes("pagina4JS.html")) {
         pagina4PSFuncion();
     } else {
         console.log("Página no encontrada");
