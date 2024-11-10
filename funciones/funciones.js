@@ -36,13 +36,13 @@ document.addEventListener("DOMContentLoaded", function() {
     if (pathname.includes("index.html")) {
         indexFuncion();
     } else if (pathname.includes("pagina1JS.html")) {
-        pagina1PSFuncion();
+        pagina1JSFuncion();
     } else if (pathname.includes("pagina2JS.html")) {
-        pagina2PSFuncion();
+        pagina2JSFuncion();
     } else if (pathname.includes("pagina3JS.html")) {
-        pagina3PSFuncion();
+        pagina3JSFuncion();
     } else if (pathname.includes("pagina4JS.html")) {
-        pagina4PSFuncion();
+        pagina4JSFuncion();
     } else {
         console.log("Página no encontrada");
     }
