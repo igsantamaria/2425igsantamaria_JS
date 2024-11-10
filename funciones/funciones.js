@@ -10,42 +10,25 @@ function pagina1JSFuncion() {
     document.body.style.backgroundColor = "lightpink";
 }
 
-// Función para la página 2 cambio color fondo
+// Función para la página 2 cambio color fondo color letra
 function pagina2JSFuncion() {
     console.log("https://igsantamaria.github.io/2425igsantamaria_JS/pagina2JS.html");
     document.body.style.backgroundColor = "lightblue";
- }
-
-// Función para la página 2 cambio color letra
-function pagina2JSFuncion() {
-    console.log("https://igsantamaria.github.io/2425igsantamaria_JS/pagina2JS.html");
     document.getElementById("miTexto").style.color = "blue";
 }
 
-// Función para la página 3 cambio color fondo
+// Función para la página 3 cambio color fondo y tipo de letra
 function pagina3JSFuncion() {
     console.log("https://igsantamaria.github.io/2425igsantamaria_JS/pagina3JS.html");
     document.body.style.backgroundColor = "lightcoral";
-}
-
-
-// Función para la página 3 cambio tamaño letra
-function pagina3JSFuncion() {
-    console.log("https://igsantamaria.github.io/2425igsantamaria_JS/pagina3JS.html");
     document.body.style.fontFamily = "sans-serilf";
 }
 
 
-// Función para la página 4 cambiar color de fondo
+// Función para la página 4 cambiar color de fondo y tamaño letra
 function pagina4JSFuncion() {
     console.log("https://igsantamaria.github.io/2425igsantamaria_JS/pagina4JS.html");
     document.body.style.backgroundColor = "lightgoldenrodyellow";
-
-}
-
-// Función para la página 4 cambiar tamaño letra
-function pagina4JSFuncion() {
-    console.log("https://igsantamaria.github.io/2425igsantamaria_JS/pagina4JS.html");
     document.body.style.fontSize = '38px';
     
 }
