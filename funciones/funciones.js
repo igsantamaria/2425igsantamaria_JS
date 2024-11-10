@@ -1,31 +1,31 @@
 
 // Función para la index
 function indexFuncion() {
-    console.log("Función de la página 4");
+    console.log("https://igsantamaria.github.io/2425igsantamaria_JS/index.html");
     alert("¡Hola, bienvenido a Hongi Etorri!")
 }
 
 // Función para la página 1
 function pagina1PSFuncion() {
-    console.log("Función de la página 1");
+    console.log("https://igsantamaria.github.io/2425igsantamaria_JS/pagina1PS.html");
     document.body.style.backgroundColor = "lightgreen";
 }
 
 // Función para la página 2
 function pagina2PSFuncion() {
-    console.log("Función de la página 2");
+    console.log("https://igsantamaria.github.io/2425igsantamaria_JS/pagina2PS.html");
     document.body.style.backgroundColor = "lightblue";
 }
 
 // Función para la página 3
 function pagina3PSFuncion() {
-    console.log("Función de la página 3");
+    console.log("https://igsantamaria.github.io/2425igsantamaria_JS/pagina3PS.html");
     document.body.style.backgroundColor = "lightcoral";
 }
 
 // Función para la página 4
 function pagina4PSFuncion() {
-    console.log("Función de la página 4");
+    console.log("https://igsantamaria.github.io/2425igsantamaria_JS/pagina4PS.html");
     document.body.style.backgroundColor = "lightgoldenrodyellow";
 
 
